@@ -5,10 +5,13 @@
     "theme": {
       "name": "default",
       "title": "Mobirise",
-      "styling": {}
+      "styling": {},
+      "additionalSetColors": [
+        "#3c3c3c"
+      ]
     },
     "versionFirst": "4.3.4",
-    "uniqCompNum": 4,
+    "uniqCompNum": 7,
     "versionPublish": "4.3.4"
   },
   "pages": {
@@ -53,7 +56,7 @@
             "fontName": {},
             "fontColor": "#ffffff"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"https://mobirise.com/\">CUMPARA BILET</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"https://mobirise.com/\">REZERVA O MASA ACUM</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -90,17 +93,61 @@
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.2"
+            "overlayColor": "#b8312f",
+            "overlayOpacity": "0.1"
           },
-          "title": "<br><br><br><br><br><br>1 DECEMBRIE CU STIL",
-          "text": "Sarbatoreste 1 Decembrie in stil romanesc impreuna cu trupa Proconsul la Fario Restaurant, Bunesti, judetul Cluj.",
+          "title": "<br><br><br><br><br><br>1 DECEMBRIE LA FARIO RESTAURANT",
+          "text": "Vino sa sarbatorim ziua de 1 Decembrie impreuna, alaturi de Procnsul. <b>Doar 100 locuri disponibile.</b>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">DOWNLOAD NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
           "_anchor": "header1-0"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-article P": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showCaption": "noCaption",
+            "showText": true,
+            "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "darkBackground": false,
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "DETALII EVENIMENT:<br>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p><b>1 Decembrie 2017,&nbsp;</b><b>ora 19:30</b></p><p><b>Pret: 150 lei (pretul biletului include aperitiv, fel principa, desert si bautura)</b></p><p><b>Fario Restaurant, centura orasului Gherla, judetul Cluj.</b></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-6"
         },
         {
           "_inherit": "msg-box1",
@@ -131,14 +178,41 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "DOAR 100 DE LOCURI",
+          "title": "DOAR 100 DE LOCURID DISPONIBILE",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">VREAU SA FAC REZERVARE</a>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">REZERVA O MASA ACUM</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box2",
           "_anchor": "msg-box2-2"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Fario Restaurant",
+              "placeId": "ChIJJ1b8_Sq8SUcRuW9BPzoerBo",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>ADRESA</strong><br>Strada Principala 310 A, Bunesti, Centura Orasului Gherla, <br>Judetul Cluj,<br>Romania<br><br>\n<strong>CONTACT</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text2": "<ul class=\"mbr-contacts__list\"></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-5"
         }
       ]
     }
